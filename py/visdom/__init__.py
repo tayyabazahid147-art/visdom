@@ -1180,7 +1180,6 @@ class Visdom(object):
         This function prints text in a box. It takes as input an `text` string.
         No specific `opts` are currently supported.
         """
-        print(f"visdom text() called with :{text}")
         opts = {} if opts is None else opts
         _title2str(opts)
         _assert_opts(opts)
